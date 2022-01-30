@@ -7,18 +7,6 @@
     display: flex;
     }
     
-    .header-logo-margin {
-      margin-right: 93px;
-    }
-    
-    .header-item:not(:last-child) {
-      margin-right: 50px;
-    }
-    
-    .header-logo{
-      color: var(--first-color);
-    }
-    
     .footer-logo {
       color: var(--third-color);
     }

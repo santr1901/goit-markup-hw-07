@@ -5,7 +5,8 @@
   }
   
   .footer-info {
-    transition: color var(--transition-time) var(--transition-function) ;
+    transition: color var(--transition-time) var(--transition-function);
+
     &:hover, &:focus {
       color: var(--third-color);
     }
@@ -88,8 +89,9 @@
     &:hover, &:focus {
       border-color: var(--third-color);
     }
+
     &::placeholder {
-       font-size: 16px;
+    font-size: 16px;
     line-height: 1.25;
     color: rgba(255, 255, 255, 0.6);
     }

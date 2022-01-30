@@ -17,20 +17,21 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header-container">
-      <a class="link logo header-logo-margin" href="index.html">Web<span class="header-logo">Studio</span></a>
-      <nav class="header-nav">
-        <ul class="list header-list">
-          <li class="header-item"><a class="link header-link current" href="index.html">Студия</a></li>
-          <li class="header-item"><a class="link header-link" href="portfolio.html">Портфолио</a></li>
-          <li class="header-item"><a class="link header-link" href="">Контакты</a></li>
+      <div class="container header__container">
+      <a class="link logo" href="index.html">Web<span class="header-logo">Studio</span></a>
+
+      <nav class="site-nav">
+        <ul class="list site-list">
+          <li class="site-list__item"><a class="link site-list__link current" href="index.html">Студия</a></li>
+          <li class="site-list__item"><a class="link site-list__link" href="portfolio.html">Портфолио</a></li>
+          <li class="site-list__item"><a class="link site-list__link" href="">Контакты</a></li>
         </ul>
       </nav>
 
       <ul class="list contact-list">
 
         <li class="contact-item">
-        <a class="link header-link" href="mailto:info@devstudio.com">
+        <a class="link  site-list__link" href="mailto:info@devstudio.com">
           <svg class="header-icon" width="16" height="12">
             <use href="images/icons.svg#icon-envelope-hover"></use>
           </svg>info@devstudio.com
@@ -38,7 +39,7 @@
         </li>
 
         <li class="contact-item">
-          <a class="link header-link" href="tel:+380961111111">
+          <a class="link  site-list__link" href="tel:+380961111111">
             <svg class="header-icon" width="10" height="16">
               <use href="images/icons.svg#icon-smartphone"></use>
             </svg>+38 096 111 11 11
@@ -51,22 +52,24 @@
     </header>
     <main class="main">
       <section class="service">
-        <div class="container service-items">
+        <div class="container service__items">
         <h1 class="service-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
           <button class="service-btn" type="button" data-modal-open>Заказать услугу</button>
   
         </div>
       </section>
+      
       <section class="advantage section">
-        <div class="container advantage-items">
-        <ul class="list advantage-list">
-          <li class="advantage-item">
+        <div class="container">
+
+        <ul class="list advantage__list">
+
+          <li class="advantage__item">
+
             <div class="advantage-icon">
-              
                 <svg width="70" height="70">
                   <use href="images/icons.svg#icon-antenna-1"></use>
                 </svg>
-            
             </div>
             <h3 class="advantage-title">Внимание к деталям</h3>
             <p class="advantage-dsc">
@@ -74,7 +77,8 @@
               формированию позиции.
             </p>
           </li>
-          <li class="advantage-item">
+
+          <li class="advantage__item">
             <div class="advantage-icon">
               
                 <svg width="70" height="70">
@@ -88,7 +92,8 @@
               влечет за собой.
             </p>
           </li>
-          <li class="advantage-item">
+
+          <li class="advantage__item">
             <div class="advantage-icon">
               
                 <svg width="70" height="70">
@@ -102,7 +107,7 @@
               влечет за собой.
             </p>
           </li>
-          <li class="advantage-item">
+          <li class="advantage__item">
             <div class="advantage-icon">
               
                 <svg width="70" height="70">

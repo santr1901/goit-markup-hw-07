@@ -3,6 +3,7 @@
     justify-content: center;
     margin-bottom: 50px
   }
+
   .filters-item:not(:last-child) {
     margin-right: 8px;
   }
@@ -29,6 +30,7 @@
     box-shadow: var(--hover-button);
   }
   }
+  
   .current-filter{
     color: var(--third-color);
     background-color: var(--accent-color);

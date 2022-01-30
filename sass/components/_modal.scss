@@ -39,7 +39,7 @@
     cursor: pointer;
     outline: none;
     transition: fill var(--transition-time)   var(--transition-function);
-    &:hover,&:focus {
+    &:hover, &:focus {
       fill: var(--accent-color);
     }
   }
@@ -167,11 +167,13 @@
     {
     border: 2px solid var(--accent-color) ;
     }
+
     &:checked + .check-txt 
     .policy-icon-wrap {
     border: none;
     background-color: var(--accent-color);
     }
+    
     &:checked .check-txt .policy-icon {
       fill: var(--third-color);
     }

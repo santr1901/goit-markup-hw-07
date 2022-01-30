@@ -19,14 +19,17 @@
     display: flex;
     flex-direction: column;
     transition: box-shadow var(--transition-time) var(--transition-function);
+
     &:hover, &:focus {
       box-shadow: var(--portfolio-item-shadow);
+    }
+    
       &:hover .example-item-txt,
       &:focus .example-item-txt {
         transform: translateY(0) ;
       }
     }
-  }
+  
   
   .example-item-wrap {
     position: relative;
