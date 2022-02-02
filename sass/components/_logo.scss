@@ -6,7 +6,15 @@
     color: var(--accent-color);
     display: flex;
     }
-    
-    .footer-logo {
+
+    .logo__header {
+      color: var(--first-color);
+    }
+
+    .logo__footer {
       color: var(--third-color);
     }
+
+  
+
+    

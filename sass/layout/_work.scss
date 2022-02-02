@@ -3,16 +3,12 @@
   }
   
   .work-list {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -30px;
-    margin-top: -30px;
+   @extend %flex-list;
   }
   
   .work-item {
+    @extend %flex-item;
     flex-basis: calc(100%/3 - 30px);
-    margin-left: 30px;
-    margin-top: 30px;
     position: relative;
   }
   

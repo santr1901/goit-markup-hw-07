@@ -8,15 +8,17 @@
 @import "./components/btn";
 @import "./components/main-title";
 @import "./components/social-list";
-@import "./components/filters";
 @import "./components/modal";
+@import "./components/logo";
 
-@import "./layout/logo";
 @import "./layout/header";
 @import "./layout/service";
 @import "./layout/advantage";
 @import "./layout/work"; 
+@import "./layout/filters";
 @import "./layout/team"; 
 @import "./layout/clients";
 @import "./layout/footer"; 
 @import "./layout/portfolio-example";  
+
+@import "./utils/placeholder";

@@ -3,10 +3,7 @@
   }
   
   .team-list {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -30px;
-    margin-top: -30px;
+    @extend %flex-list;
   }
   
   .team-item {
@@ -15,9 +12,8 @@
     border-bottom-right-radius: 4px;
     box-shadow: var(--box-shadow);
     padding-bottom: 30px;
+    @extend %flex-item;
     flex-basis: calc(100%/4 - 30px);
-    margin-left: 30px;
-    margin-top: 30px;
   }
   .team-name,
   .team-position{
